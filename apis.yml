@@ -1,9 +1,31 @@
 aid: nebex
 name: Nebex
-description: 'Nebex is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Nebex operates Nebra Exchange, an exchange platform for the global space
+  economy that connects commercial space suppliers, sovereign buyers such as
+  governments and space agencies, and financial institutions. The platform aims
+  to standardize space-commerce infrastructure so demand can find supply faster,
+  workflows can be coordinated across multilateral participants, and capital can
+  participate through transparent structures, facilitating complex transactions
+  from demand to delivery including sourcing, coordination, and settlement.
+  Founded by Tejpaul Bhatia (CEO) and Anand Subramanian (COO), both formerly of
+  Axiom Space, Nebex is backed by GV. The company currently offers early,
+  invite-based access to the Nebra Exchange platform and does not yet publish a
+  public API, developer portal, or SDK program.
 url: https://raw.githubusercontent.com/api-evangelist/nebex/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: >-
+  https://cdn.prod.website-files.com/69d7ce76ca1b5fcddfbd6f08/69e4ee154fb05506898127bf_safeimagekit-resized-logoW%20(1).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Frontier Tech
+- Space Economy
+- Space Commerce
+- Marketplace
+- Exchange
+- Settlement
+- GV Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.nebex.com
+- type: SignUp
+  url: https://invite.nebex.com
+- type: Support
+  url: https://www.nebex.com/contact
+- type: TermsOfService
+  url: https://www.nebex.com/terms
+- type: PrivacyPolicy
+  url: https://www.nebex.com/privacy
+- type: DomainSecurity
+  url: security/nebex-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
