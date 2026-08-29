@@ -13,6 +13,17 @@ description: >-
   invite-based access to the Nebra Exchange platform and does not yet publish a
   public API, developer portal, or SDK program.
 url: https://raw.githubusercontent.com/api-evangelist/nebex/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
